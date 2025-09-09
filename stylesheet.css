@@ -187,7 +187,7 @@ footer a {
 @media  (max-width: 640px) {
     
     body {
-        text-align: center;
+        text-align: left;
     }
 
     header{
@@ -279,3 +279,4 @@ footer a {
     }
 
 }
+
