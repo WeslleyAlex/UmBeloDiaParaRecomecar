@@ -189,6 +189,11 @@ footer a {
 @media  (max-width: 640px) {
     
     body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
         text-align: left;
     }
 
@@ -284,3 +289,4 @@ footer a {
         justify-content: center;
     }
 }
+
