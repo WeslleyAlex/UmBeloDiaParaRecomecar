@@ -187,7 +187,7 @@ footer a {
 @media  (max-width: 640px) {
     
     body {
-        text-align: justify;
+        text-align: center;
     }
 
     header{
@@ -277,4 +277,5 @@ footer a {
         width: 75%;
         justify-content: center;
     }
+
 }
