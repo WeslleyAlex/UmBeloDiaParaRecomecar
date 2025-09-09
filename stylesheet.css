@@ -290,9 +290,10 @@ footer a {
     }
 }
 
-@media  (max-width: 1024px) {
+@media  (max-width: 1440px) {
     .menu {
         width: 75%;
         justify-content: center;
     }
 }
+
