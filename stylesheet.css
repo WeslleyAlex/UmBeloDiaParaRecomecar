@@ -1,0 +1,280 @@
+body {
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-items: center;
+    background-color: #fafafa;
+}
+
+header {
+    width: 100%;
+    height: 11vh;
+    justify-items: center;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 15vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    transition: 0.2s;
+}
+
+.menu li:hover {
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#banner {
+    background-image: url(img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.estatistica {
+    font-size: 45px;
+    color: #73A641;
+}
+
+h2 {
+    color: #31592F;
+}
+
+.quebra {
+    white-space: pre-wrap;
+}
+
+.doacao {
+    display: flex;
+}
+
+#doacao {
+    font-size: 2.2em;
+}
+
+.cta {
+    width: 170vw;
+}
+
+#divisor {
+    margin: 30px;
+}
+
+#infoDestaque{
+    background-color: #ECF2D5;
+    border-radius: 5px;
+    color: #31592F;
+    height: 15vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.btDoar {
+    font-weight: 530;
+    font-size: 0.9em;
+    color: white;
+    width: 15vw;
+    height: 7vh;
+    background-color: #4a84c2;
+    border-radius: 5px;
+    border-color: #31592F;
+    cursor: pointer;
+}
+
+.btDoar:hover {
+    box-shadow: 1px 1px 5px #31592F;
+    background-color: #3b79bb;
+    transform: translateY(-1px);
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.imgcard {
+    width: 150px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+.textoCard {
+    padding: 30px;
+}
+
+#video{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    border-radius: 5px;
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: #31592F;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+footer article {
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesSociais img {
+    width: 20px;
+}
+
+@media  (max-width: 640px) {
+    
+    body {
+        text-align: justify;
+    }
+
+    header{
+        height: fit-content;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+    }
+
+     section {
+        width: 90%;
+    }  
+
+    #divisor {
+        display: none;
+    }
+
+    .btDoar {
+    width: 30vw;
+    height: 7vh;
+    }
+
+    .cta {
+        width: 90vw;
+    }
+
+    .doacao {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #doacao {
+        font-size: 2em;
+    }
+
+    .dados, .card, footer {
+        flex-direction: column;
+    }
+
+    .textoCard {
+        padding: 0px;
+    }
+
+    footer article {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redesSociais {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media  (max-width: 768px) {
+
+    nav {
+        width: 90%;
+    }
+
+    .menu {
+        width: 75%;
+        justify-content: center;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .textoCard {
+        padding: 10px;
+    }
+}
+
+@media  (max-width: 1024px) {
+    .menu {
+        width: 75%;
+        justify-content: center;
+    }
+}
