@@ -270,7 +270,7 @@ footer a {
     }
 }
 
-@media  (max-width: 768px) {
+@media  (max-width: 940px) {
 
     nav {
         width: 90%;
@@ -290,10 +290,11 @@ footer a {
     }
 }
 
-@media  (max-width: 1440px) {
+@media  (max-width: 1780px) {
     .menu {
         width: 75%;
         justify-content: center;
     }
 }
+
 
