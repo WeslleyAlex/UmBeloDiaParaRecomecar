@@ -186,7 +186,7 @@ footer a {
     width: 25px;
 }
 
-@media  (max-width: 640px) {
+@media  (max-width: 768px) {
     
     body {
         display: flex;
@@ -270,7 +270,7 @@ footer a {
     }
 }
 
-@media  (max-width: 940px) {
+@media  (max-width: 1200px) {
 
     nav {
         width: 90%;
@@ -296,5 +296,6 @@ footer a {
         justify-content: center;
     }
 }
+
 
 
